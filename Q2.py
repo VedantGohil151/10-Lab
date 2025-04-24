@@ -1,4 +1,4 @@
-f=open("D:\\Krish\\Python\\Q1_Csv.csv")
+f=open("D:\\Vedant\\Python\\Q1_Csv.csv")
 data=f.readlines()
 all_lines=[lines.strip().split(',') for lines in data]
 empty_dict={}
